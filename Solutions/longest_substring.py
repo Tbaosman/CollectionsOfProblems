@@ -38,7 +38,3 @@ def longest_substring(s: str) -> str:
         if len(substring) > len(longest):
             longest = substring
     return longest
-
-
-    
-print(longest_substring("abbbsssassssqweert"))
